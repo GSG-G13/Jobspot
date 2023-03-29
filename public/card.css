@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    padding: 3rem 0;
+}
+
+.card {
+    background-color: rgb(238, 238, 238);
+    padding: 16px;
+    border-radius: 14px;
+    width: 273px;
+    height: 256px;
+}
+
+.cards-container {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.company-container {
+    display: flex;
+    align-items: center;
+}
+
+.company-name {
+    font-size: 14px;
+    color: #443e3e;
+}
+
+.logo {
+    width: 30px;
+    height: 30px;
+}
+
+.card h3 {
+    font-size: 32px;
+}
+
+
+.job-descripton-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.job-description {
+    text-align: justify;
+    font-size: 14px;
+}
+
+.salary {
+    color: #0c234b;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.job-details {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.contract {
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.contract-type {
+    background-color: #dfdfdf;
+    padding: 4px;
+    border-radius: 2px;
+    font-size: 0.7rem;
+
+}
+
+.contract-time {
+    background-color: #dfdfdf;
+    color: #292929;
+    font-weight: 500;
+    padding: 4px;
+    border-radius: 2px;
+    font-size: 0.7rem;
+}
+
+.job-link {
+    text-decoration: none;
+    background-color: #0c234b;
+    border-radius: 2px;
+    color: white;
+    padding: 5px 12px;
+
+}
