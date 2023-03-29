@@ -1,0 +1,203 @@
+
+         *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+             font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ; 
+            color: black;
+            }
+            
+            .header {
+                width: 100%;
+                height: 100vh;
+                background-color: #f5f5f5;
+
+            }
+            h2 span{
+                color: #0c234b;
+            }
+            nav {
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 28px ;
+            }
+            nav .logo {
+                display: flex;
+                align-items: center;
+                font-weight: 600;
+            }
+           
+            nav ul li {
+                 list-style: none;
+                 display: inline-block;
+                 margin: 0 20px;
+                 position: relative;
+            }
+            nav ul li a {
+                text-decoration: none;
+                
+            }
+            nav ul li ::after {
+                content:'';
+                height: 3px;
+                width: 0;
+                background: #0c234b;
+                position: absolute;
+                left: 0;
+                bottom: -10px;
+                transition: 0.5s;
+            }
+            nav ul li :hover::after {
+                width: 100%;
+            }
+            .btn{
+                text-decoration: none;
+                padding: 0.4rem;
+                background: none;
+                border-radius: .4rem;
+                margin-left: .5rem;
+                border: 1px solid #d6a7a7;
+                background-color:#0c234b;
+                color: #fff;
+                cursor: pointer;
+                }
+            
+                .img {
+                    width: 420px;
+                }
+                .container{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding: 80px;
+                    padding: 10px 100px;  
+                }
+
+           
+            .content h1 {
+                font-size: 40px;
+                line-height: 100px;
+                font-weight: 400;
+            
+            }
+            .content p {
+                max-width: 500px;
+                line-height: 28px;
+                padding-bottom: 10px;
+               
+            }
+            
+            .inputForm-inputField{
+                padding: .6rem;
+                width: 30vw;
+                border-radius: 0.3rem;
+                margin-top: 30px;
+            
+            }
+            .inputForm-searchBtn{
+                padding: 0.6rem;
+                background: none;
+                border-radius: .3rem;
+                margin-left: .5rem;
+                border: 1px solid #d6a7a7;
+                background-color:#0c234b;
+                color: #fff;
+                cursor: pointer;
+            }
+            
+        
+           
+.card {
+    background-color: rgb(238, 238, 238);
+    padding: 16px;
+    border-radius: 14px;
+    width: 273px;
+    height: 256px;
+}
+
+.cards-container {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top:32px;
+    align-items: center;
+}
+
+.company-container {
+    display: flex;
+    align-items: center;
+}
+
+.company-name {
+    font-size: 14px;
+    color: #443e3e;
+}
+
+.logo {
+    width: 30px;
+    height: 30px;
+}
+
+.card h3 {
+    font-size: 32px;
+}
+
+
+.job-descripton-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.job-description {
+    text-align: justify;
+    font-size: 14px;
+}
+
+.salary {
+    color: #0c234b;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.job-details {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.contract {
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.contract-type {
+    background-color: #dfdfdf;
+    padding: 4px;
+    border-radius: 2px;
+    font-size: 0.7rem;
+
+}
+
+.contract-time {
+    background-color: #dfdfdf;
+    color: #292929;
+    font-weight: 500;
+    padding: 4px;
+    border-radius: 2px;
+    font-size: 0.7rem;
+}
+
+.job-link {
+    text-decoration: none;
+    background-color: #0c234b;
+    border-radius: 2px;
+    color: white;
+    padding: 5px 12px;
+
+}
