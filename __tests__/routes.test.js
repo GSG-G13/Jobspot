@@ -2,7 +2,7 @@ const request = require('supertest');
 const app =  require("../src/app");
 
 test('/route', (done) => {
-    requset(app)
+    request(app)
       .get('/')
       .expect(200)
       .expect('content-type', /html/)
@@ -12,8 +12,8 @@ test('/route', (done) => {
       });
   });
 test('/route', (done) => {
-    requset(app)
-      .get('/')
+    request(app)
+      .get('/gggg')
       .expect(404)
       .expect('content-type', /html/)
       .end((err) => {
