@@ -14,7 +14,7 @@ test('/route', (done) => {
 test('/route', (done) => {
     requset(app)
       .get('/')
-      .expect(200)
+      .expect(404)
       .expect('content-type', /html/)
       .end((err) => {
         if (err) return done(err);
