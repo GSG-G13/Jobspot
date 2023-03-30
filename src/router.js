@@ -21,3 +21,5 @@ router.use((err, req, res) => {
     .status(500)
     .sendFile(path.join(__dirname, "..", "public", "html", "500.html"));
 });
+
+module.exports = router;
