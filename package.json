@@ -20,7 +20,11 @@
   "dependencies": {
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
+<<<<<<< HEAD
     "node-fetch": "^2.6.7",
+=======
+    "node-fetch": "^2.6.9",
+>>>>>>> e31ec503513895bc1cec7f100f35cbf6fbe70e04
     "supertest": "^6.3.3"
   },
   "devDependencies": {
