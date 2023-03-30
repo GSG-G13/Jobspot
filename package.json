@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start" : "node src/app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/app.js",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -20,7 +20,8 @@
   "dependencies": {
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
-    "node-fetch": "^2.6.7"
+    "node-fetch": "^2.6.7",
+    "supertest": "^6.3.3"
   },
   "devDependencies": {
     "eslint": "^8.37.0",
